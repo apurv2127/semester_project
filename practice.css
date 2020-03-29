@@ -1,0 +1,69 @@
+.flex-container{
+	display: flex;
+	flex-wrap: wrap;
+width: 100%;
+background-color: #D8D8D8;
+}
+.container-item{
+	height:300px;
+}
+
+.my-font{
+	font-size: 50px;
+}
+.red{
+	background-color: #EA000B;
+}
+.yellow{
+	background-color: yellow;
+}
+.orange{
+	background-color: orange;
+}
+.pink{
+	background-color: pink;
+}
+
+@media screen and (min-width: 768px){
+
+	.red{
+		width: 50%;
+	}
+	.yellow{
+		width:50%;
+	}
+	.orange{
+		width:50%;
+	}
+	.pink{
+		width:50%;
+	}
+}
+@media screen and (min-width:468px) and (max-width: 767px){
+	.red{
+		width: 50%;
+	}
+	.yellow{
+		width:50%;
+	}
+	.orange{
+		width:100%;
+	}
+	.pink{
+		width:100%;
+	}
+}
+@media screen and (max-width:468px) {
+	.red{
+		width: 100%;
+	}
+	.yellow{
+		width:100%;
+	}
+	.orange{
+		width:100%;
+	}
+	.pink{
+		width:100%;
+	}
+}
